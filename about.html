@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        #navbarSupportedContent {
+           
+            font-size: 110%;
+        }
+        
+        ul li:hover {
+            color:rgb(75, 7, 7);
+        }
+        body {
+            background:url(earth.jpg);
+        }
+        img {
+            transition: 1ms;
+        }
+        img:hover {
+    
+            filter:grayscale(100%);
+            transform: scale(1.1);
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand display-6 fw-bolder text-success" href="navbar.html">PLANET HUB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end ps-5 pe-5 fw-bold" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="navbar.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="navregister.html">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <p class="fw-bolder fst-italic text-xl-center display-5 text-white">Planet Gallery</p>
+    <div class="container-fluid w-75">
+        <div class="row">
+            <div class="col-4">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="neptune.jpg" alt="">
+                    <div class="caption text-white">
+                        Neptune
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="venus1.jpg" alt="">
+                    <div class="caption text-white">
+                        Venus
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="mars1.jpg" alt="">
+                    <div class="caption text-white">
+                        Mars
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="thumbnail">
+                <img class="img-thumbnail" src="jupiter.jpg" alt="">
+                    <div class="caption text-white">
+                        Jupiter
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="thumbnail"> 
+                    <img class="img-thumbnail" src="saturn2.jpg" alt="">
+                    <div class="caption text-white">
+                        Saturn
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="thumbnail"> 
+                    <img class="img-thumbnail" src="uranus1.jpg" alt="">
+                    <div class="caption text-white">
+                        Uranus
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-3">
+                <div class="thumbnail"> 
+                    <img class="img-thumbnail" src="neptune.jpg" alt="tree7">
+                    <div class="caption">
+                        Neptune
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</body>
+</html>
